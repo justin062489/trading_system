@@ -1,8 +1,8 @@
 # trading_system
 
 
-http://localhost:8000/core/order/total-value/
-example
+http://localhost:8000/core/order/total-value/ <br>
+
 POST Method
 {
     "stock_id" : "1",
@@ -10,9 +10,8 @@ POST Method
     "order_type" : "sell"
 }
 
-__________________________-_______________________
 
-http://localhost:8000/core/order/place-order/
+http://localhost:8000/core/order/place-order/ <br>
 {
     "stock" : "1",
     "order_type" : "sell",
